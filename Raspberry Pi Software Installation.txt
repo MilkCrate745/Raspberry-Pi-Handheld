@@ -1,0 +1,19 @@
+This Document is to be a list and installation sequence of all the required software for the raspberry pi.
+
+Raspbian LITE (Jesse)
+  - raspi-config
+    - Expand file system
+    - Set timezone keyboard and such
+  - apt-get update upgrade
+  - HTOP
+  - *Need to update* Install all requirements for SPI chips MCP3008 and MCP28S08
+
+Retroarch/Emulationstation
+  - Do full install from source
+  - Copy over files BIOS, ROM, theme, etc.
+
+
+PiTFT
+  - Set screen rotation to 270
+  - Change default to tty2
+    - Add "chvt 2" to /etc/rc.local
