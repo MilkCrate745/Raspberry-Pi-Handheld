@@ -11,9 +11,10 @@ Raspbian LITE (Jesse)
 Retroarch/Emulationstation
   - Do full install from source
   - Copy over files BIOS, ROM, theme, etc.
+  - Set up GPIO for game imputs [https://learn.adafruit.com/retro-gaming-with-raspberry-pi/overview]
 
 
-PiTFT
+PiTFT [https://learn.adafruit.com/adafruit-pitft-28-inch-resistive-touchscreen-display-raspberry-pi/easy-install?view=all]
   - Set screen rotation to 270
   - Change default to tty2
     - Add "chvt 2" to /etc/rc.local
